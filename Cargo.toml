@@ -3,7 +3,16 @@ name = "rs-arrow-ipc2resized"
 version = "0.1.0"
 edition = "2024"
 
+description = "Resize Arrow IPC record batches"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-arrow-ipc2resized"
+homepage = "https://github.com/takanoriyanagitani/rs-arrow-ipc2resized"
+documentation = "https://docs.rs/rs-arrow-ipc2resized/latest"
+keywords = ["arrow", "ipc", "record", "batch", "resize"]
+
 exclude = [
+  "arrow-ipc2resized.wasm",
+  "in.arrow.ipc.stream.dat",
 ]
 
 [lints.rust]
